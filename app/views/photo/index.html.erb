@@ -1,0 +1,19 @@
+<p><a href="/users/index"><b>Back</b></a></p>
+<% @current_user.photos.each_with_index do |photo, i|%>
+  <p><%=i + 1 %>. <%=photo.date_time%></p>
+  <p><%=image_tag(photo.file_name) %></p>
+
+  <% photo.comments.each_with_index do |comment, j|%>
+    <table border="3">
+      <tr>
+        <td><%=j + 1 %>. <%=link_to(comment.user.first_name + " " + comment.user.last_name, comment.user_id) %>
+         @<%=comment.date_time%> says:</td>
+      </tr>
+      <tr>
+        <td><%=comment.comment_text%></td>
+      </tr>
+      <br>
+    </table>
+  <% end %>
+
+<% end %>

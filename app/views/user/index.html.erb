@@ -1,6 +1,6 @@
 <h2>PhotoSite User List</h2>
 
-<p>There are <%=@users_all.size%> Users</p>
+<p>There are <%=@users.count%> Users</p>
 <br>
 <table cellpadding="5" cellspacing="5">
   <tr>
@@ -8,11 +8,12 @@
     <td><b>First</b></td>
     <td><b>Last</b></td>
   </tr>
-  <% @users_all.each do |user|%>
+  <% @users.find_each do |user|%>
     <tr>
       <td><%=user.id%></td>
       <td><%=user.first_name%></td>
       <td><%=user.last_name%></td>
+      <td><%=link_to("link", "/photos/index/" + user.id.to_s)%></td>
     </tr>
   <%end%>
 </table>
