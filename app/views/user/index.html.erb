@@ -1,0 +1,18 @@
+<h2>PhotoSite User List</h2>
+
+<p>There are <%=@users_all.size%> Users</p>
+<br>
+<table cellpadding="5" cellspacing="5">
+  <tr>
+    <td><b>User</b></td>
+    <td><b>First</b></td>
+    <td><b>Last</b></td>
+  </tr>
+  <% @users_all.each do |user|%>
+    <tr>
+      <td><%=user.id%></td>
+      <td><%=user.first_name%></td>
+      <td><%=user.last_name%></td>
+    </tr>
+  <%end%>
+</table>
