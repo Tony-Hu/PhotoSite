@@ -2,12 +2,12 @@
 ## Table of Contents
 1. [Setup Amazon EC2](#1-setup-amazon-ec2)
 2. [Build environment on your EC2](#2-build-environment-on-your-ec2)
-  - [Configure with ruby & ruby on rails](#configure)
+  2. [Configure with ruby & ruby on rails](#configure)
 3. [Run your code on EC2](#3-run-your-code-on-ec2)
 4. [Adv - Why my stuffs disappeared after I stopped my EC2?! What shall I do?](#4-adv---why-my-stuffs-disappeared-after-i-stopped-my-ec2-what-shall-i-do)
 5. [Adv - How to get access to my website despite the IP address of EC2 changes?](#5-adv---how-to-get-access-to-my-website-despite-the-ip-address-of-ec2-changes)
-  - [Option A - Use load balancer](#option-a---use-load-balancer)
-  - [Option B - Use Elastic IP](#option-b---use-elastic-ip)
+  5. [Option A - Use load balancer](#option-a---use-load-balancer)
+  5. [Option B - Use Elastic IP](#option-b---use-elastic-ip)
 <br>
 
 ## 1. Setup Amazon EC2
