@@ -50,6 +50,8 @@ Install a Javascript runtime. Node.js at this example:
 sudo yum install nodejs npm --enablerepo=epel
 ```
 <a name = "configure" />
+<br>
+
 **Configure with ruby & ruby on rails**<br>
 Then, import public key in order to install rvm:<br>
 ```
