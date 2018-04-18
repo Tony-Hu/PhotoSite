@@ -9,6 +9,7 @@
   - [Option A - Use load balancer](#option-a---use-load-balancer)
   - [Option B - Use Elastic IP](#option-b---use-elastic-ip)
 <br>
+
 ## 1. Setup Amazon EC2
 To Deploy it on AWS EC2, the first thing is to register a AWS account and bind it with a card. I just skip this part.
 Then, go to EC2 and press “Launch Instance”.<br>
