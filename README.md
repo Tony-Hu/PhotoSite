@@ -1,6 +1,6 @@
 # How to deploy PhotoSite on Amazon AWS EC2
 ## Table of Contents
-1. [Setup Amazon EC2](#1-setup-amazon-ec2-)
+1. [Setup Amazon EC2](#1-setup-amazon-ec2)
 2. [Build environment on your EC2](#2-build-environment-on-your-ec2)
   - [Configure with ruby & ruby on rails](#configure)
 3. [Run your code on EC2](#3-run-your-code-on-ec2)
