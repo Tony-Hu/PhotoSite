@@ -1,6 +1,7 @@
 # How to deploy PhotoSite on Amazon AWS EC2
-
-## 1. Setup Amazon EC2
+## Table of Contents
+1. [Setup Amazon EC2](#setup)
+## 1. Setup Amazon EC2 <a name="setup" />
 To Deploy it on AWS EC2, the first thing is to register a AWS account and bind it with a card. I just skip this part.
 Then, go to EC2 and press “Launch Instance”.<br>
 <img src="https://raw.githubusercontent.com/Tony-Hu/PhotoSite/master/tutorial_pics/2018_04_17-19_08_52_0.png" width="300px"><br>
